@@ -1,0 +1,13 @@
+{
+  "name": "vercel-monorepo",
+  "version": "1.0.0",
+  "private": "true",
+  "workspaces": ["packages/*"],
+  "license": "MIT",
+  "scripts": {
+    "start:ui": "yarn --cwd packages/ui start",
+    "start:functions": "yarn --cwd packages/functions start",
+    "deploy:ui": "yarn --cwd packages/ui deploy",
+    "deploy:functions": "yarn --cwd packages/functions deploy"
+  }
+}
