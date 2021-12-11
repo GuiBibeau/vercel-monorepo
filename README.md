@@ -1,5 +1,7 @@
 ## Vercel-Monorepo
 
+### NB: With the recent launch and aquisition of turbo repo, this will soon get updated to a newer blog post
+
 This is a example repo that shows a simple structure for a vercel monorepo. This is using yarn workspaces to add basic tooling a separation of concerns.
 
 ## How to deploy this to vercel.
